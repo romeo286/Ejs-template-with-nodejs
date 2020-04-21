@@ -1,0 +1,198 @@
+
+
+ <style>
+   *{
+	 	padding: 0px;
+	 	margin: 0px;
+	 	box-sizing: border-box;
+	 }
+
+	 .nav{
+	 	background: black;
+	 	color: white;
+	 	height: 70px;
+	 	font-family: sans-serif;
+
+	 	display: flex;
+	 	flex-wrap:wrap;
+     align-items: center;
+   
+	 }
+
+	 .nav-title{
+	 	width: 30%;
+	 	background: red;
+	 	padding: 16px 40px;
+	 	text-align: center;
+
+	 }
+
+	 .nav-menu{
+	 	width: 70%;
+	 }
+
+	 .nav-menu ul{
+	 	display: flex;
+	 	justify-content: flex-end;
+   }
+   
+   .nav-menu ul li {
+
+    list-style-type: none;
+   }
+
+	 .nav-menu ul li a{
+	 	padding: 10px 20px;
+	 	color: #ccc;
+	 	font-size: 20px;
+	 
+	 	cursor: pointer;
+	 }
+
+	 .nav-menu ul li a:hover{
+	 	color:red;
+	 	font-weight: bold;
+	 }
+
+  @media screen and (max-width: 959px) {
+   .nav{
+	   width: 100%;
+   }
+   .nav-title{
+	   width: 30%;
+   }
+   .nav-title h1{
+	 	width: 100%;
+	 	background: red;
+
+	 	text-align: center;
+        padding: 15px;
+	 }
+   .nav-menu{
+	   width: 50%;
+   }
+}
+@media screen and (max-width: 640px) {
+   .nav{
+	   width: 100%;
+   }
+   .nav-title{
+	 	width:50%;
+		 height: 80px;
+	 	background: red;
+		 padding: 5px;
+	   
+	 	text-align: center;
+
+	 }
+   .nav-title h1{
+	 	width: 100%;
+	 	background: red;
+
+	 	text-align: center;
+
+	 }
+   .nav-menu{
+	   width: 100%;
+	   text-align: center;
+   }
+   .nav-menu ul {
+	   display: inline-flex;
+	 
+   }
+   .nav-menu ul li a{
+	 	
+	 	color: black;
+	 	font-size: 20px;
+		font-weight: bold;
+	
+	 	cursor: pointer;
+	
+		
+		
+	 }
+	 
+	 .nav-menu ul li a:hover{
+	 	color:red;
+	 	font-weight: bold;
+	 }
+
+
+}
+@media screen and (max-width: 320px) {
+    *{
+	 	padding: 0px;
+	 	margin: 0px;
+	 
+	 }
+    .nav{
+	   width: 100%;
+   }
+   .nav-title{
+	 	width:50%;
+		 height: 80px;
+	 	background: red;
+		 padding: 5px;
+	   
+	 	text-align: center;
+
+	 }
+   .nav-title h1{
+	
+	 	background: red;
+    
+		 font-size: 22px;
+		 font-weight: bold;
+	 	text-align: center;
+		 color: antiquewhite;
+
+	 }
+   .nav-menu{
+	   width: 100%;
+   }
+   .nav-menu ul {
+	   display: inline-flex;
+	 
+   }
+   .nav-menu ul li a{
+	 	
+	 	color: black;
+	 	font-size: 11px;
+		font-weight: bold;
+	 
+	 	cursor: pointer;
+		 text-align: center;
+		
+		
+	 }
+	 
+	 .nav-menu ul li a:hover{
+	 	color:red;
+	 	font-weight: bold;
+	 }
+  
+
+}
+    
+ 
+
+
+
+ </style>
+
+
+<div class="nav">
+    <div class="nav-title">
+      <h1>Megabyte</h1>
+    </div>
+  
+    <div class="nav-menu">
+      <ul>
+        
+       <li ><a href="/">HOME</a></li>
+        <li ><a href="/about">ABOUT US</a></li>
+        <li ><a href="/contact">CONTACT US</a></li>
+      </ul>
+    </div>
+  </div>
+  
